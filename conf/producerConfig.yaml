@@ -1,0 +1,11 @@
+---
+props:
+  acks: all
+  bootstrap.servers: "localhost:9092"
+  enable.auto.commit: true
+  retries: 0
+  batch.size: 16384
+  linger.ms: 1
+  buffer.memory: 33554432
+  key.serializer: org.apache.kafka.common.serializa-tion.StringSerializer
+  value.serializer: org.apache.kafka.common.serializa-tion.StringSerializer
